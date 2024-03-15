@@ -3,7 +3,7 @@
 @import 'tailwindcss/utilities';
 
 .text-stroke-3 {
-    -webkit-text-stroke: 0.1px rgba(120, 109, 35, 1);
+    -webkit-text-stroke: 1px rgba(120, 109, 35, 1);
 }
 
 
