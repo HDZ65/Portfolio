@@ -1,6 +1,6 @@
 
 import MesStacks from "./../../components/MesStacks/MesStacks";
-import Navbar from './../../components/Navbar/Navbar';
+import Navbar from '../../components/Navbar/Navbar.client';
 import Logo from './../../components/Logo/Logo';
 import React from 'react';
 import MaPhoto from './../../components/MaPhoto/MaPhoto';
@@ -8,23 +8,23 @@ import Link from "next/link";
 
 export default function Accueil() {
   return (
-    <section className="flex flex-col gap-24  z-20 ">
+    <section className="lg:flex lg:flex-col lg:gap-24  z-20 ">
         <Navbar />
-        <article className="flex justify-between items-center ">
+        <article className="flex flex-col md:flex-row lg:justify-between lg:items-center gap-8 p-5  ">
           <div
             className="flex
-         flex-col gap-12 "
+         flex-col lg:gap-12 gap-8 "
           >
-            <h1 className="text-4xl leading-none font-semibold">
-              <span className=" text-backgroundDark-1000 text-stroke-3 text-8xl">
+            <h1 className="lg:text-4xl text-2xl leading-none font-semibold">
+              <span className="text-4xl text-backgroundDark-1000 text-stroke-3 lg:text-8xl">
                 Bonjour,{" "}
               </span>
-              je m&apos;appelle {<Logo size={70} />}
+              je m&apos;appelle {<Logo size={40} />}
             </h1>
             <p className="text-xl">
             &quot;Je suis étudiant en développement web et web mobile.&quot;
             </p>
-            <Link href="https://github.com/HDZ65" className="group w-2/5 flex justify-center items-center gap-2 hover:duration-100 underline hover:underline origin-left  hover:text-textDark-1000 relative bg-gradientviolet px-4 py-4 text-left text-backgroundDark-1000 text-base font-bold rounded-lg overflow-hidden after:absolute after:z-10 after:w-12 after:h-12 after:content[''] after:bg-primaryDark-800 after:-left-8 after:top-8 after:rounded-full after:blur-lg hover:after:animate-pulse bg-white isolation-auto z-10 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-gradient before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700">
+            <Link href="https://github.com/HDZ65" className="hidden group w-2/5 md:flex justify-center items-center gap-2 hover:duration-100 underline hover:underline origin-left  hover:text-textDark-1000 relative bg-gradientviolet px-4 py-4 text-left text-backgroundDark-1000 text-base font-bold rounded-lg overflow-hidden after:absolute after:z-10 after:w-12 after:h-12 after:content[''] after:bg-primaryDark-800 after:-left-8 after:top-8 after:rounded-full after:blur-lg hover:after:animate-pulse bg-white isolation-auto z-10 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-gradient before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700">
               <svg
                 y="0"
                 xmlns="http://www.w3.org/2000/svg"

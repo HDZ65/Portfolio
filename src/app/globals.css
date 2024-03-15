@@ -5,3 +5,13 @@
 .text-stroke-3 {
     -webkit-text-stroke: 0.1px rgba(120, 109, 35, 1);
 }
+
+
+
+.css-156e1s9-MuiButtonBase-root-MuiBottomNavigationAction-root.Mui-selected {
+    color: rgb(255, 255, 255);
+}
+
+.css-co5tlx-MuiButtonBase-root-MuiBottomNavigationAction-root.Mui-selected {
+    color: rgb(255, 255, 255);
+}

@@ -6,14 +6,14 @@ import Link from "next/link";
 import { DiJavascript1 } from "react-icons/di";
 
 
-const size = 80;
+const size = 50;
 const color = "white";
 
 
 export default function MesStacks() {
   return (
-    <article className="flex flex-col items-center gap-8 py-2 my-8 border-t border-b border-secondaryDark-1000 bg-backgroundDark-100   ">
-      <h2 className="text-5xl py-0 bg-gradientviolet text-transparent bg-clip-text text-center font-semibold w-2/5">
+    <article className="flex flex-col items-center gap-8 py-2 xl:my-8 border-t border-b border-secondaryDark-1000 bg-backgroundDark-100   ">
+      <h2 className="lg:text-5xl text-3xl py-0 bg-gradientviolet text-transparent bg-clip-text text-center font-semibold lg:w-2/5">
         Mes stacks
       </h2>
       <div className="flex items-center justify-evenly w-full mb-4">

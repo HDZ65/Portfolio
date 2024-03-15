@@ -1,9 +1,10 @@
-import {  FaReact } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiCss3, SiTailwindcss } from "react-icons/si";
 import { SiMui } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
 import Card from "@/components/Card/Card";
+
 
 import ToDoList from './../../assets/images/To_do_List.png';
 import PlayerAudio from './../../assets/images/Player.png';
@@ -38,21 +39,27 @@ const stacks = [
 
 export default function Projects() {
   return (
-    <div className="flex flex-col gap-16 mb-32 z-20">
-      <h2 className="tracking-wide text-center text-5xl font-bold text-transparent bg-clip-text bg-gradientviolet ">Mes projets</h2>
-      <div className="flex">
-      {stacks.map((stack) => (
-        <Card
-          key={stack.id}
-          photoProjet={stack.photoProjet}
-          name={stack.name}
-          href={stack.href}
-          logoStack={stack.logoStack.map((logo, index) => 
-            React.cloneElement(logo, {fill: "rgba(120, 109, 35, 1)", size: "2.8rem", key: index })
-          )}
-        />
-      ))}
+    <div>
+      <div className=" flex flex-col gap-10 xl:mb-32">
+        <h2 className="tracking-wide text-center text-3xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gradientviolet ">Mes projets</h2>
+        <div className="flex flex-col lg:justify-around md:flex-row  gap-6">
+          {stacks.map((stack) => (
+            <Card
+              key={stack.id}
+              photoProjet={stack.photoProjet}
+              name={stack.name}
+              href={stack.href}
+              logoStack={stack.logoStack.map((logo, index) =>
+                React.cloneElement(logo, { fill: "rgba(120, 109, 35, 1)", size: "1.8rem", key: index })
+              )}
+            />
+          ))}
+        </div>
+      </div>
+
+      
+
     </div>
-    </div>
+
   )
 }
