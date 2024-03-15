@@ -18,7 +18,6 @@ export default function MesStacks() {
       </h2>
       <div className="flex items-center justify-evenly w-full mb-4">
         <Link
-          href="https://www.figma.com/"
           class="group flex justify-center p-2 drop-shadow-xl hover:bg-gradient text-white font-semibold hover:translate-y-3 rounded-[50%] transition-all duration-200  hover:-backgroundDark-1000"
         >
           <FaFigma size={size} color={color} />
@@ -29,7 +28,6 @@ export default function MesStacks() {
           </span>
         </Link>
         <Link
-          href="https://tailwindcss.com/"
           class="group flex justify-center p-2 drop-shadow-xl hover:bg-gradient text-white font-semibold hover:translate-y-3 rounded-[50%] transition-all duration-200  hover:-backgroundDark-1000"
         >
           <SiTailwindcss  size={size} color={color} />
@@ -40,7 +38,6 @@ export default function MesStacks() {
           </span>
         </Link>
         <Link
-          href="https://www.javascript.com/"
           class="group flex justify-center p-2 drop-shadow-xl hover:bg-gradient text-white font-semibold hover:translate-y-3 rounded-[50%] transition-all duration-200  hover:-backgroundDark-1000"
         >
           <DiJavascript1 className="rounded-[100%] " size={size} color={color} />
@@ -51,7 +48,6 @@ export default function MesStacks() {
           </span>
         </Link>
         <Link
-          href="https://fr.legacy.reactjs.org/"
           class="group flex justify-center p-2 drop-shadow-xl hover:bg-gradient text-white font-semibold hover:translate-y-3 rounded-[50%] transition-all duration-200  hover:-backgroundDark-1000"
         >
           <FaReact size={size} color={color} />
