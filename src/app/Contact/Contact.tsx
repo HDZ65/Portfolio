@@ -6,7 +6,7 @@ export default function Contact() {
         <p className="bg-primaryDark-500 text-textBlancDark-1000 rounded text-center w-1/3 text-sm ">
           Développeur web
         </p>
-        <p className="text-xl text-textBlancDark-1000">Rechercher de stage pour valider mon année d'étude</p>
+        <p className="text-xl text-textBlancDark-1000">Rechercher de stage pour valider mon année d&apos;étude</p>
       </div>
       <div className="flex flex-col justify-between gap-2">
         <button

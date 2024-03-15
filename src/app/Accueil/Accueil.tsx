@@ -19,10 +19,10 @@ export default function Accueil() {
               <span className=" text-backgroundDark-1000 text-stroke-3 text-8xl">
                 Bonjour,{" "}
               </span>
-              je m'appelle {<Logo size={70} />}
+              je m&apos;appelle {<Logo size={70} />}
             </h1>
             <p className="text-xl">
-              "Je suis étudiant en développement web et web mobile."
+            &quot;Je suis étudiant en développement web et web mobile.&quot;
             </p>
             <Link href="https://github.com/HDZ65" className="group w-2/5 flex justify-center items-center gap-2 hover:duration-100 underline hover:underline origin-left  hover:text-textDark-1000 relative bg-gradientviolet px-4 py-4 text-left text-backgroundDark-1000 text-base font-bold rounded-lg overflow-hidden after:absolute after:z-10 after:w-12 after:h-12 after:content[''] after:bg-primaryDark-800 after:-left-8 after:top-8 after:rounded-full after:blur-lg hover:after:animate-pulse bg-white isolation-auto z-10 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-gradient before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700">
               <svg
