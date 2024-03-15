@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
+import { BackgroundGradientAnimation } from "@/components/ui/BackgroundGradientAnimation";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Roboto({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="fr">
+      <body className={`${inter.className} bg-backgroundDark-1000`}>{children}</body>
     </html>
   );
 }
