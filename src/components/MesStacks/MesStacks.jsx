@@ -1,8 +1,8 @@
 import { FaReact } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
+
 import { SiTailwindcss } from "react-icons/si";
 import { FaFigma } from "react-icons/fa";
-import Link from "next/link";
+
 import { DiJavascript1 } from "react-icons/di";
 
 
@@ -17,7 +17,7 @@ export default function MesStacks() {
         Mes stacks
       </h2>
       <div className="flex items-center justify-evenly w-full mb-4">
-        <Link
+        <button
           class="group flex justify-center p-2 drop-shadow-xl hover:bg-gradient text-white font-semibold hover:translate-y-3 rounded-[50%] transition-all duration-200  hover:-backgroundDark-1000"
         >
           <FaFigma size={size} color={color} />
@@ -26,8 +26,8 @@ export default function MesStacks() {
           >
             Figma
           </span>
-        </Link>
-        <Link
+        </button>
+        <button
           class="group flex justify-center p-2 drop-shadow-xl hover:bg-gradient text-white font-semibold hover:translate-y-3 rounded-[50%] transition-all duration-200  hover:-backgroundDark-1000"
         >
           <SiTailwindcss  size={size} color={color} />
@@ -36,8 +36,8 @@ export default function MesStacks() {
           >
             Tailwind
           </span>
-        </Link>
-        <Link
+        </button>
+        <button
           class="group flex justify-center p-2 drop-shadow-xl hover:bg-gradient text-white font-semibold hover:translate-y-3 rounded-[50%] transition-all duration-200  hover:-backgroundDark-1000"
         >
           <DiJavascript1 className="rounded-[100%] " size={size} color={color} />
@@ -46,8 +46,8 @@ export default function MesStacks() {
           >
             JavaScript
           </span>
-        </Link>
-        <Link
+        </button>
+        <button
           class="group flex justify-center p-2 drop-shadow-xl hover:bg-gradient text-white font-semibold hover:translate-y-3 rounded-[50%] transition-all duration-200  hover:-backgroundDark-1000"
         >
           <FaReact size={size} color={color} />
@@ -56,7 +56,7 @@ export default function MesStacks() {
           >
             React
           </span>
-        </Link>
+        </button>
       </div>
     </article>
   );
