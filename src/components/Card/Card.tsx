@@ -91,7 +91,7 @@ export default function Card({
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button style={{textAlign: "center", margin: "auto", color: "white", fontWeight:"bolder", width: "100%", padding: " 5px", background:"black"  }} size="small" color="primary">
+            <Button href={href} style={{textAlign: "center", margin: "auto", color: "white", fontWeight:"bolder", width: "100%", padding: " 5px", background:"black"  }} size="small" color="primary">
               Voir le projet
             </Button>
           </CardActions>
