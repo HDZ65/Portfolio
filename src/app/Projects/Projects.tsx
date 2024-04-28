@@ -19,14 +19,7 @@ const stacks = [
     href: "https://audio-player-six-eta.vercel.app",
     logoStack: [<FaHtml5 key="html5" />, <SiCss3 key="css3" />, <IoLogoJavascript key="javascript" />],
   },
-  {
-    id: 2,
-    name: "Restaurant",
-    photoProjet: restaurant,
-    href: "",
 
-    logoStack: [<FaReact key="react" />, <SiMui key="mui" />],
-  },
   {
     id: 3,
     name: "To-Do-List",
