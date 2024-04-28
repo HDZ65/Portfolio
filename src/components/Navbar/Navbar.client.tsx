@@ -21,7 +21,7 @@ export default function Navbar() {
 
 
   return (
-    <div>
+    <header>
       <nav className="hidden lg:flex flex-wrap items-center justify-between p-6">
         <Logo size={30} />
         <div className="flex text-textBlancDark-1000 gap-16 ">
@@ -91,6 +91,6 @@ export default function Navbar() {
           value="Contact"
           icon={<EmailIcon />} />
       </BottomNavigation>
-    </div>
+    </header>
   );
 }

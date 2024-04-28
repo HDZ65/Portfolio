@@ -9,8 +9,7 @@ import Link from "next/link";
 export default function Accueil() {
   return (
     <section className="lg:flex lg:flex-col lg:gap-24  z-20 ">
-        <Navbar />
-        <article className="flex flex-col md:flex-row lg:justify-between lg:items-center gap-8 p-5  ">
+        <article className="flex flex-col md:flex-row lg:justify-between lg:items-center gap-8 p-6  ">
           <div
             className="flex
          flex-col lg:gap-12 gap-8 "

@@ -7,5 +7,5 @@ export const linkData: LinkDataType[] = [
   createLinkData(2, "Mes projets", "#projects"),
   createLinkData(3, "A propos", "#about"),
   createLinkData(4, "Contact", "#contact"),
-  createLinkData(5, "CV", "#cv"),
+  createLinkData(5, "CV", "https://cvdesignr.com/p/64be66892cb12"),
 ];
