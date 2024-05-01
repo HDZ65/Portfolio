@@ -9,9 +9,8 @@ import { FaPhp } from "react-icons/fa";
 import ToDoList from './../../assets/images/To_do_List.png';
 import PlayerAudio from './../../assets/images/Player.png';
 import React from "react";
-import formulaire from './../../assets/images/formulaire.png';
+import formulaire from './../../assets/images/Formulaire.png';
 import restaurant from './../../assets/images/Restaurant.png';
-
 const stacks = [
   {
     id: 1,
