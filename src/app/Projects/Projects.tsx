@@ -4,11 +4,12 @@ import { SiCss3, SiTailwindcss } from "react-icons/si";
 import { SiMui } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
 import Card from "@/components/Card/Card";
-
+import { FaPhp } from "react-icons/fa";
 
 import ToDoList from './../../assets/images/To_do_List.png';
 import PlayerAudio from './../../assets/images/Player.png';
 import React from "react";
+import formulaire from './../../assets/images/formulaire.png';
 import restaurant from './../../assets/images/Restaurant.png';
 
 const stacks = [
@@ -18,6 +19,13 @@ const stacks = [
     photoProjet: PlayerAudio,
     href: "https://audio-player-six-eta.vercel.app",
     logoStack: [<FaHtml5 key="html5" />, <SiCss3 key="css3" />, <IoLogoJavascript key="javascript" />],
+  },
+  {
+    id: 2,
+    name: "Formulaire",
+    photoProjet: formulaire,
+    href: "https://formulaire-two.vercel.app/",
+    logoStack: [<FaHtml5 key="html5" />, <SiCss3 key="css3" />, <FaPhp key="PHP" />],
   },
 
   {
